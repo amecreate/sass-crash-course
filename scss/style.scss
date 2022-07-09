@@ -24,8 +24,7 @@ a {
 
 // header
 .showcase {
-    background-color: $primary-color;
-    color: set-text-color($primary-color);
+    @include set-background($primary-color);
     height: 600px;
 
     // navbar
