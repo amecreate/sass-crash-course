@@ -13,3 +13,9 @@ $secondary-color: #ff8700;
         @return #fff;
     }
 }
+
+// set background color and text color altogether
+@mixin set-background($color) {
+    background-color: $color;
+    color: set-text-color($color);
+}
