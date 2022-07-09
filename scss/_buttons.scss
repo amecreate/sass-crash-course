@@ -9,3 +9,13 @@
         transform: scale(.98);
     }
 }
+
+.btn-primary {
+    @extend %btn;
+    background-color: $primary-color;
+}
+
+.btn-secondary {
+    @extend %btn;
+    background-color: $secondary-color;
+}
